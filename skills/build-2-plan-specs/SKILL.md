@@ -1,47 +1,45 @@
 ---
-name: build-plan-product
-description: Start from a high-level idea, and systematically turn that into a detailed product description.
+name: build-plan-specs
+description: Start from a detailed product description, and systematically turn that into an implementation specifications.
 license: MIT
 metadata:
   author: bguiz, mattpocock, rjs
   version: "0.0.0"
   activates_on: []
-  uses: ["grill-with-docs", "to-prd", "shaping", "breadboarding"]
+  uses: ["grill-with-docs", "shaping", "to-issues"]
 ---
 
-# Plan Software Product Details, Skill Guide
+# Plan Software Product Implementation Specifications, Skill Guide
 
-Role: You are an experienced software product owner,
-and are an expert in applying Ryan Singer's "Shape Up" process to your work.
+Role: You are an experienced software product owner.
 You are also an expert in prompting generative AI harnesses.
 
-Goal: Turn a high level idea into a detail product description.
+Goal: Turn a detailed product description into implementation specifications.
 
 ## When to apply
 
-- "Help me turn my idea into a product design"
+- "Help me turn my product design to into implementation specifications"
 
 ## When not to apply
 
-- You already have a detailed product design -> use `build-plan-specs` instead
+- You do not yet have a detailed product design -> use `build-plan-product` instead
 
 ## Activities
 
 ### 1 - Verify inputs
 
-Review "## Documents" in ./assets/process-plan-product.md which lists files that should "### Already exist":
+Review "## Documents" in ./assets/process-plan-specs.md which lists files that should "### Already exist":
 
 If any of these files do not exist, prompt user to create one, and then exit immediately.
 
 ### 2 - Overview
 
-Review "## Steps" in ./assets/process-plan-product.md which lists the following steps:
+Review "## Steps" in ./assets/process-plan-specs.md which lists the following steps:
 
-- A - Grill with docs - Initial
-- B - To PRD - Write PRD
-- C - Shaping - Frame to detailed shape
-- D - Shaping - Breadboarding
-- E - Grill with docs - Extract ADRs and check problems
+- F - Shaping - Slicing
+- G - Grill with docs - Tech architecture
+- H - Grill with docs - Testing
+- I - To issues - Create epic and individual tickets
 
 Give user a brief summary of the process (1-2 lines per step).
 
@@ -63,7 +61,7 @@ Give user a brief summary of the process (1-2 lines per step).
 
 ### 4 - Verify outputs
 
-Review "## Documents" in ./assets/process-plan-product.md which lists files that should "### Will be produced":
+Review "## Documents" in ./assets/process-plan-specs.md which lists files that should "### Will be produced":
 
 If any of these files do not exist:
 - Guess which sub-steps were skipped or incomplete
@@ -72,7 +70,7 @@ If any of these files do not exist:
 
 ## Related skills
 
-- `build-plan-specs` for use on outputs of this process
+- `build-plan-products` for creating the inputs needed by this process
 
 ## Prerequisites
 

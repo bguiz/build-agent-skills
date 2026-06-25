@@ -47,7 +47,7 @@ task:
 ```
 
 ```
-(... answer questions asked, multiple times until all have been answered)
+(…answer questions asked, multiple times until all have been answered)
 ```
 
 (A2) Inconsistencies check
@@ -95,7 +95,7 @@ create SHAPING.md and do step "Build R" in it
 ```
 
 ```text
-decompose requirement (... requirement ID) into 2 or more sub-requirements.
+decompose requirement (…requirement ID) into 2 or more sub-requirements.
 ```
 
 (C3) Sketch S (Shapes) - Propose mutually exclusive solution approaches (A, B, C…). Each is a table of parts - mechanisms describing what you build, not intentions.
@@ -133,23 +133,23 @@ continue next step in SHAPING.md, "Fit Check (R x S)"
 ```
 
 ```text
-I want to pick shape (... shape ID), as that seems the closest to achieving a R x S full fit (... or other reasons).
+I want to pick shape (…shape ID), as that seems the closest to achieving a R x S full fit (…or other reasons).
 
-But first, address the flagged requirements (... list of flagged requirements for target shape)
+But first, address the flagged requirements (…list of flagged requirements for target shape)
 
-Create a SPIKE-(... spike ID).md file, and do a spike for all the flagged requirements there?
+Create a SPIKE-(…spike ID).md file, and do a spike for all the flagged requirements there?
 ```
 
 ```text
-(... repeat above prompt for different shapes and different requirements, as desired)
+(…repeat above prompt for different shapes and different requirements, as desired)
 ```
 
 ```text
-- I have made manual edits to SPIKE-(... spike ID).md
-- use the recommendations in SPIKE-(... spike ID).md to update the appropriate parts of SHAPING.md
+- I have made manual edits to SPIKE-(…spike ID).md
+- use the recommendations in SPIKE-(…spike ID).md to update the appropriate parts of SHAPING.md
 - however
   - do NOT modify the contents of the "## Fit Check" section, simply rename it to "## Fit Check v1"
-  - instead create a new "## Fit Check v2" section, with a note linking to spike SPIKE-(... spike ID).md
+  - instead create a new "## Fit Check v2" section, with a note linking to spike SPIKE-(…spike ID).md
 ```
 
 (C6) Select a shape - Pick the shape that passes the fit check. If none pass, add missing R and iterate.
@@ -170,7 +170,7 @@ Pick shape (...shape ID)
 > Prompts:
 
 ```text
-select shape (... shape ID) and detail it in SHAPING.md
+select shape (…shape ID) and detail it in SHAPING.md
 ```
 
 ```text
@@ -186,7 +186,7 @@ trigger the shaping ripple hook check
 
 ```text
 /shaping the shaping process has been completed up until shape detailing
-see FRAME.md + SHAPING.md + (... list of spike files)
+see FRAME.md + SHAPING.md + (…list of spike files)
 
 next create BREADBOARD.md and start breadboarding.
 do NOT attempt to complete the full breadboard in a single pass, as you will exceed the max tokens per turn.
@@ -198,7 +198,7 @@ add next breadboarding section (if not yet complete)
 ```
 
 ```text
-(... repeat above prompt until you receives a response that it has completed the process)
+(…repeat above prompt until you receives a response that it has completed the process)
 ```
 
 ```text
@@ -214,7 +214,7 @@ trigger the shaping ripple hook check
 
 ```text
 /grill-with-docs
-- review new files created from the shaping process: FRAME.md + SHAPING.md + BREADBOARD.md + (... list of spike files)
+- review new files created from the shaping process: FRAME.md + SHAPING.md + BREADBOARD.md + (…list of spike files)
 - assess if need to add/update existing files: CONTEXT.md + docs/PRD.md + ADRs in docs/adr/*.md
 - make changes as needed
 - check/clarify with me if unsure, adding all questions upfront and as you go to QUESTIONS.md

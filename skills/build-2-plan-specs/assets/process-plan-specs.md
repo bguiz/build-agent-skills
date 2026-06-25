@@ -104,7 +104,7 @@ Prod to ensure that ADRs have been created if needed
 ```
 
 ```text
-(... answers to 1 or more questions)
+(…answers to 1 or more questions)
 
 Based on the answers to the questions, ensure that ADRs are created/updated in docs/adr/*.md
 Also update CONTEXT.md + docs/PRD.md and any other files if needed.
@@ -125,7 +125,7 @@ Also add all new questions you have to QUESTIONS.md (if any)
 ```
 
 ```text
-(... answers to 1 or more questions)
+(…answers to 1 or more questions)
 
 Based on the answers to the questions, ensure that ADRs are created/updated in docs/adr/*.md
 Update CONTEXT.md + docs/PRD.md and any other files, if needed.
@@ -139,9 +139,9 @@ Also add all new questions you have to QUESTIONS.md (if any)
 > Prompts:
 
 ```text
-help me to choose (... tech stack module/package/library/framework) for (... desired feature).
+help me to choose (…tech stack module/package/library/framework) for (…desired feature).
 suggest 3, and provide the tradeoffs.
-context: (... provide relevant context only)
+context: (…provide relevant context only)
 ```
 
 examples:
@@ -189,7 +189,7 @@ context: application server is a single server instance. tasks do not need to pe
 > Prompts:
 
 ```text
-(... answers to 1 or more questions)
+(…answers to 1 or more questions)
 
 Based on the answers to the questions, ensure that ADRs are created/updated in docs/adr/*.md
 Also update CONTEXT.md + docs/PRD.md and any other files if needed.
@@ -205,7 +205,7 @@ Do no update SLICE-V*.md files yet
 > Prompts:
 
 ```text
-(... answers to 1 or more questions)
+(…answers to 1 or more questions)
 
 - Based on the findings in TESTING.md update the "## Test Plan" section in each SLICE-V*.md file
 - Add all questions up front, and as you go, to QUESTIONS.md
@@ -230,7 +230,7 @@ Do no update SLICE-V*.md files yet
 > Prompts:
 
 ```text
-(... answers to 1 or more questions)
+(…answers to 1 or more questions)
 
 - Based on the findings in TESTING.md update the "## Test Plan" section in each SLICE-V*.md file
 - Add all questions up front, and as you go, to QUESTIONS.md
